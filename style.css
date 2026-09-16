@@ -1,0 +1,8 @@
+@charset "UTF-8";
+/* 极简深灰页面：只有一张放大可拖的全息闪卡 */
+*{box-sizing:border-box}
+html,body{margin:0;padding:0;height:100%;overflow:hidden;background:#24262a}
+#stage{position:fixed;inset:0;width:100vw;height:100vh;cursor:grab;touch-action:none;outline:none}
+#stage:active{cursor:grabbing}
+#loading{position:absolute;inset:0;display:grid;place-items:center;color:#9a9da3;font:14px "Microsoft YaHei",sans-serif;letter-spacing:2px}
+#stage canvas{display:block}

@@ -1,0 +1,32 @@
+{
+  "mode": "holographic",
+  "title": "Ms.Zhang",
+  "subtitle": "困困のQ版日常",
+  "technique": "摸鱼时刻",
+  "tagline": "帽子一戴，谁也不爱。",
+  "edition": "No.001 / 001",
+  "collection": "黑bro 全息典藏",
+  "description": "水彩 pastel 风多层镭射收藏卡。",
+  "parameters": {
+    "subjectScale": 1.2,
+    "subjectDepth": 0.4,
+    "backgroundDepth": -0.25,
+    "foil": 0.8,
+    "particles": 1.0,
+    "glow": 0.85
+  },
+  "safeArea": {
+    "scale": 1.12,
+    "offset": [
+      -0.06,
+      -0.085
+    ]
+  },
+  "assets": {
+    "subject": "./assets/subject.png",
+    "background": "./assets/background.png",
+    "text": "./assets/text.png",
+    "lineart": "./assets/lineart.png",
+    "model": "./assets/card.glb"
+  }
+}
